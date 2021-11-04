@@ -123,6 +123,36 @@ var CurrentTime5pm = function() {
     }
 }
 
+// on click event, store value of textarea 
+$("#save-icon-9am").on("click",function(event) { 
+    event.preventDefault();
+    
+    var notes9am = $("#text-9am").val().trim();
+    localStorage.setItem("notes-9am",notes9am);
 
+})
+
+// on click event, store value of textarea 
+$("#save-icon-10am").on("click",function(event) { 
+    event.preventDefault();
+
+    var notes10am = $("#text-10am").val().trim();
+    localStorage.setItem("notes-10am",notes10am);
+
+})
+
+
+// this works!
+var loadNotes = function() {
+    // return value of on click event
+    var currentNotes9am = localStorage.getItem("notes-9am");
+    console.log (currentNotes9am);
+    $("#text-9am").val(currentNotes9am);
+
+    var currentNotes10am = localStorage.getItem("notes-10am");
+    console.log (currentNotes10am);
+    $("#text-10am").val(currentNotes10am);
+}
 
 auditTime();
+loadNotes();
