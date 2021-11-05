@@ -71,3 +71,10 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
+/* attempt to remove bold on time-container */
+@media (min-width: 576px) {
+  .hour {
+    font-weight: normal;
+  }
+}
