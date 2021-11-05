@@ -15,9 +15,8 @@ textarea{
 
 .jumbotron {
   text-align: center;
-  /*background: url(/assets/images/pure-css-halftone-pattern.png);*/
-  /*background-color: transparent;*/
   background: url(6df23e313830bf0fea9f8dce8fb87c61.jpg);
+  padding: 0px;
   color: white;
   border-radius: 0;
   border-bottom: 10px solid black;
