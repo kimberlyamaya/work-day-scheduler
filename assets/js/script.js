@@ -1,12 +1,20 @@
 // global variables //
 var todayTime = moment().format("ha");
-//var todayTime = "12pm"
+//var todayTime = "3pm"
 var todayDate = moment().format("dddd, MMMM Do, YYYY");
 //console.log(rightNow);
 
 
 // get current day //
 $("#currentDay") .text(todayDate);  
+
+
+// set time interval to load page
+setInterval(function() {
+    console.log("it-works!");
+    $("#currentDay") .text(todayDate);
+    auditTime();
+}, 15000);
 
 
 // auditTime function //
@@ -214,47 +222,39 @@ $("#save-icon-5pm").on("click",function(event) {
 var loadNotes = function() {
     // return local storage of on page load
     var currentNotes9am = localStorage.getItem("notes-9am");
-    console.log (currentNotes9am);
+    //console.log (currentNotes9am);
     $("#text-9am").val(currentNotes9am);
 
     // return local storage of on page load
     var currentNotes10am = localStorage.getItem("notes-10am");
-    console.log (currentNotes10am);
     $("#text-10am").val(currentNotes10am);
 
     // return local storage of on page load
     var currentNotes11am = localStorage.getItem("notes-11am");
-    console.log (currentNotes11am);
     $("#text-11am").val(currentNotes11am);
 
     // return local storage of on page load
     var currentNotes12pm = localStorage.getItem("notes-12pm");
-    console.log (currentNotes12pm);
     $("#text-12pm").val(currentNotes12pm);
 
     // return local storage of on page load
     var currentNotes1pm = localStorage.getItem("notes-1pm");
-    console.log (currentNotes1pm);
     $("#text-1pm").val(currentNotes1pm);
 
     // return local storage of on page load
     var currentNotes2pm = localStorage.getItem("notes-2pm");
-    console.log (currentNotes2pm);
     $("#text-2pm").val(currentNotes2pm);
 
     // return local storage of on page load
     var currentNotes3pm = localStorage.getItem("notes-3pm");
-    console.log (currentNotes3pm);
     $("#text-3pm").val(currentNotes3pm);
 
     // return local storage of on page load
     var currentNotes4pm = localStorage.getItem("notes-4pm");
-    console.log (currentNotes4pm);
     $("#text-4pm").val(currentNotes4pm);
 
     // return local storage of on page load
     var currentNotes5pm = localStorage.getItem("notes-5pm");
-    console.log (currentNotes5pm);
     $("#text-5pm").val(currentNotes5pm);
 
 }
