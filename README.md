@@ -1,14 +1,31 @@
 # Work Day Scheduler Starter Code
-GIVEN I am using a daily planner to create a schedule  
-WHEN I open the planner  
-THEN the current day is displayed at the top of the calendar  
-WHEN I scroll down  
-THEN I am presented with time blocks for standard business hours  
-WHEN I view the time blocks for that day  
-THEN each time block is color-coded to indicate whether it is in the past, present, or future  
-WHEN I click into a time block  
-THEN I can enter an event  
-WHEN I click the save button for that time block  
-THEN the text for that event is saved in local storage  
-WHEN I refresh the page  
-THEN the saved events persist  
+
+**Description**
+
+This is a work day scheduler that dynamically pulls in the current day at the top of the screen. The work day hours are listed here with a notes section for each hour. The notes section provides a place to add reminders or comments pertaining to that specific hour of the day. Once the notes are entered and the save icon is pressed those notes are saved and will remain visible on the screen. To clear the notes you must click into the notes and delete the contents and press the save icon.  The current or present hour will be highlighted in redish-orange, the past hours will be highlighted in grey and the future hours will be highlighted in green.
+
+
+**Fun Fact**
+
+The page is dynamically pulling local date and time every 20 min. The local date and time is also pulled on every page load. Between the two of these, the highlight on the present, past and future hours will always be current. This is true for the date at the top of the page as well.
+
+
+**Website Screen Shot**
+
+![work-day-scheduler-website-screen-shot](assets/images/website-screen-shot-png)
+
+
+**Website Link**
+
+https://kimberlyamaya.github.io/work-day-scheduler/
+
+
+**GitHub Link**
+
+https://github.com/kimberlyamaya/work-day-scheduler
+
+
+**Editors**
+
+* Starter code was provided by UC Davis Boot Camp via GitHub
+* Kimberly Amaya
