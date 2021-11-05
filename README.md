@@ -12,7 +12,7 @@ The page is dynamically pulling local date and time every 20 min. The local date
 
 **Website Screen Shot**
 
-![website-screen-shot](assets/images/website-screen-shot.png)
+![website-screen-shot](assets/images/website-screen-shot.PNG)
 
 
 **Website Link**
