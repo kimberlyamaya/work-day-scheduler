@@ -7,7 +7,7 @@ This is a work day scheduler that dynamically pulls in the current day at the to
 
 **Website Screen Shot**
 
-![work-day-scheduler-website-screen-shot](assets/images/website-screen-shot-png)
+![website-screen-shot](assets/images/website-screen-shot.PNG)
 
 
 **Website Link**
